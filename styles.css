@@ -40,19 +40,19 @@ p{
     border: solid;
     border-width: 1px;
     border-radius: 8px;
-    border-color: #30363D;
+    border-color: #21262d;
 
-    padding: 18px;
+    padding: 17px;
     margin: auto;
     margin-top: 20px;
 
     display: flex;
     flex-direction: column;
-    gap:6px;
+    gap:7px;
 
 }
 
-#user{
+#userinput{
     height: 32px;
     width: 273px;
     background-color: #0D1117;
@@ -63,7 +63,7 @@ p{
     border-color: #30363D;
 }
 
-#signin{
+#signinbtn{
     height: 32px;
     width: 273px;
     font-size: 14px;
@@ -98,7 +98,7 @@ p{
 #forgot{
     display: flex;
     justify-content: space-between;
-    align-items:flex-end;
+    align-items:flex-start;
     margin-top: 12px;
     
 }
@@ -112,6 +112,7 @@ p{
     margin-top: 82px;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .terms{
