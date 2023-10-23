@@ -20,16 +20,17 @@
 
     </head>
 
-    <body>
+    <body id="body">
         <div class="container" id="top">
             <a href="https://github.com/"><img src="assets/logo.png" id="logo"></a>
             <p style="font-size: 22px; font-weight: 100;"> Sign in to GitHub</p>
         </div>
 
-        
-        
+        <div id="invalid">
 
+        </div>
 
+    
         <div id="loginbox">
             
             <p style="font-size: 14px;"> Username or email address</p>
@@ -41,7 +42,7 @@
             </div>
             
             <input class="userinput" type="text" spellcheck="false">
-            <button id="signinbtn">Sign in</button>
+            <button id="signinbtn" onclick="invalid()">Sign in</button>
             
         </div>
 
