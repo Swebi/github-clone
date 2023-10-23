@@ -1,4 +1,4 @@
-# dbug-web
+# GitHub-Clone
 
 GitHub login page clone, made using HTML CSS and JavaScript
 
