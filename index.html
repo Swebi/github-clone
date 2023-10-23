@@ -2,11 +2,13 @@
 
 <html lang="en">
     <head>
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-   
+      
         <link href="styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Montserrat">
 
 
         <script src="scripts.js"></script>
@@ -16,22 +18,25 @@
 
     <body>
         <div class="container" id="top">
-            <img src="assets/logo.png" id="logo">
+            <a href="https://github.com/"><img src="assets/logo.png" id="logo"></a>
             <p style="font-size: 22px; font-weight: 100;"> Sign in to GitHub</p>
         </div>
+
+        
+        
 
 
         <div id="loginbox">
             
             <p style="font-size: 14px;"> Username or email address</p>
-            <input id="userinput" type="text">
+            <input class="userinput" type="text" spellcheck="false">
             
             <div id="forgot">
                 <p style="font-size: 14px;"> Password</p>
-                <p style="font-size: 12px; color: #2074F7;"> Forgot password?</p>
+                <a href="https://github.com/password_reset" style = "text-decoration: none;"><p style="font-size: 12px; color: #2074F7;"> Forgot password?</p></a>
             </div>
             
-            <input id="userinput" type="text">
+            <input class="userinput" type="text" spellcheck="false">
             <button id="signinbtn">Sign in</button>
             
         </div>
@@ -39,22 +44,22 @@
 
 
         <div class="container" id="create">
-            <p style="color: #2074F7; font-size: 14px; font-weight: 600; margin-bottom: -9px;">
-                Sign in with a passkey</p>
+            <a href="#"><p style="color: #2074F7; font-size: 14px; font-weight: 600; margin-bottom: -9px;">
+                Sign in with a passkey</p></a>
             <p style="font-size: 14px;">
                 New to GitHub? 
-                <span style="color: #2074F7; font-size: 14px;">
+                <a href="https://github.com/signup?source=login"><span style="color: #2074F7; font-size: 14px;">
                 Create an account 
-                <span>
+                <span></a>
             </p>
         </div>
 
         <div class="container" id="bottom">
-            <p class="terms"> Terms</p>
-            <p class="terms">Privacy</p>
-            <p class="terms"> Docs</p>
-            <p class="terms" style="color: #7D8590;">
-            Contact GitHub Support</p>
+            <a href="https://github.com/site/terms"><p class="terms"> Terms</p></a>
+            <a href="https://github.com/site/privacy"><p class="terms">Privacy</p></a>
+            <a href="https://docs.github.com/"><p class="terms"> Docs</p></a>
+            <a href="https://github.com/contact"><p class="contact">
+            Contact GitHub Support</p></a>
 
         </div>
 
